@@ -1,8 +1,11 @@
 ## Set Up WordPress
 Create a new directory in your home folder called my_wordpress and cd into it:
 
+<pre class="terminal">
 mkdir ~/my_wordpress/
 cd ~/my_wordpress/
+</pre>
+
 Create a file named docker-compose.yml in this folder and add the following contents. Set your own passwords for the WORDPRESS_DB_PASSWORD, MYSQL_ROOT_PASSWORD, and MYSQL_PASSWORD environment options. The password entered for WORDPRESS_DB_PASSWORD and MYSQL_PASSWORD should be the same.
 
 
